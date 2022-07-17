@@ -37,6 +37,39 @@ export default function Body() {
                 </div>
 
             </div>
+
+            <div className='explorer'>
+                <h1>EXPLORER</h1>
+
+                <div className='card'>
+                    <div className='itens'>
+                    <img src={File} alt='folder'/>
+                    <p><a href='https://github.com/davifa1/login_mercado_livre'>Mercado Livre Clone</a></p>
+                    </div>
+
+                    <p>Clone Mercado Livre Login</p>
+
+
+                    <div className='footer'>
+                        <img src={Star}  alt='star'/>
+                        <h1>100</h1>
+                    </div>
+                </div>
+
+                <div className='card'>
+                    <div className='itens'>
+                    <img src={File} alt='folder'/>
+                    <p><a href='https://github.com/davifa1/disneyplus_clone'>Disney Plus Colne</a></p>
+                    </div>
+
+                    <p>Clone Disney Plus Home Page</p>
+
+                    <div className='footer'>
+                        <img src={Star}  alt='star'/>
+                        <h1>100</h1>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

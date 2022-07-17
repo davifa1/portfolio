@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactAudioPlayer from 'react-audio-player';
+
 import './index.css';
 
 import Globe from './../../src/assets/globe.svg';
@@ -41,7 +43,14 @@ export default function Menu() {
             <p>React Native</p>
             <p>React JS</p>
             <p>Node JS</p>
-        </div>    
+        </div>
+
+       <ReactAudioPlayer className='Player'
+        src="https://firebasestorage.googleapis.com/v0/b/aula-105.appspot.com/o/Never%20Stop%20Learning%20-%20Do%20While%202020%20Theme.mp3?alt=media&token=21f300bb-bef5-4e06-8cb0-e445d72ed20a"
+        autoPlay
+        controls
+        loop
+    />
         </div>
     );
 }

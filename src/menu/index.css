@@ -93,3 +93,9 @@ p {
     text-align: center;
     font-size: 15px;
 }
+
+.Player {
+    color: white;
+    width: 300px;
+    height: 30px;
+}
