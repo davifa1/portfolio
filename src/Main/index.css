@@ -67,6 +67,13 @@ header p {
     height: 60vh;
     background-color: var(--bg-cards);
 }
+.about img {
+    border: double 3px transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, var(--v-max-b), var(--v-max-p));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
 .about p {
     margin-top: 1rem;
     font-size: 2rem;
@@ -85,7 +92,7 @@ header p {
     border-radius: 4px;
 }
 .about:hover {
-    border: solid 3px var(--text-color);
+    border: solid 3px var(--alpha-color-hover);
 }
 .about a:hover {
     background-color: var(--alpha-color-hover);
@@ -99,7 +106,7 @@ header p {
     height: 23.4rem;
     margin-left: 10px;
     background-color: var(--bg-cards);
-    border: solid 3px var(--text-color);
+    border: solid 3px var(--alpha-color-hover);
 }
 .destaque img {
     border: none;

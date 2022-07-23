@@ -17,7 +17,7 @@ export default function Main() {
                 <div className='about'>
                     <img src={URL} alt='photo_git'/>
                     <p>Davi Henrique</p>
-                    <a href='https://portfoliomax.vercel.app' _blank>Visualizar Perfil</a>
+                    <a href='https://portfoliomax.vercel.app' _blank>VISUALIZAR PERFIL</a>
                 </div>
 
                 <div className='destaque'>
