@@ -68,6 +68,7 @@ header p {
     background-color: var(--bg-cards);
 }
 .about img {
+    width: 10rem;
     border: double 3px transparent;
     border-radius: 50%;
     background-image: linear-gradient(white, white), radial-gradient(circle at top left, var(--v-max-b), var(--v-max-p));
