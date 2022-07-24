@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export function About() {
   return (
-    <HStack w='100%' h='100%' bg={'var(--body-bg-color)'} pt={4} alignItems='center' justifyContent='space-around'>
+    <HStack w='100%' h='100vh' bg={'var(--body-bg-color)'} pt={4} alignItems='center' justifyContent='space-around'>
        <Box alignItems='center' justifyContent='center' w='30vw' display='flex' flexDirection='column' p={1}>
         <NavLink to='/'>
         <Text fontSize='50px' fontWeight='bold' mb={-15} color={'var(--text-color)'}>Davi Henrique</Text>
